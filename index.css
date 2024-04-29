@@ -1,0 +1,44 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.elements{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+.elements span{
+    margin-right: 20px;
+}
+p{
+    font-size: 20px;
+    font-weight: 1000;
+    
+}
+button{
+    height: 80px;
+    width: 100px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#Opponent_label{
+    font-weight: bold;
+    font-size: 18px;
+}
+ #result{
+    font-weight: bold;
+    font-size: 18px;
+}
+#my_choose{
+    font-weight: bold;
+    font-size: 19px;
+}
+button{
+    cursor: pointer;
+    transition:all .1s ease-in-out;
+}button:active{
+    font-size: 30px;
+}
